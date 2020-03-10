@@ -1,0 +1,290 @@
+2020-03-09 20:24:42,495 - [test_add.py-->line:72] - INFO: 用例:加标成功, 执行通过
+2020-03-09 20:24:42,661 - [test_add.py-->line:72] - INFO: 用例:加标失败—借款人id为空, 执行通过
+2020-03-09 20:24:42,916 - [test_add.py-->line:72] - INFO: 用例:加标失败—标题为空, 执行通过
+2020-03-09 20:24:43,112 - [test_add.py-->line:72] - INFO: 用例:加标失败—借款金额为空, 执行通过
+2020-03-09 20:24:43,311 - [test_add.py-->line:72] - INFO: 用例:加标失败—年利率为空, 执行通过
+2020-03-09 20:24:43,537 - [test_add.py-->line:72] - INFO: 用例:加标失败—借款期限为空, 执行通过
+2020-03-09 20:24:43,728 - [test_add.py-->line:72] - INFO: 用例:加标失败—借款期限类型为空, 执行通过
+2020-03-09 20:24:43,913 - [test_add.py-->line:72] - INFO: 用例:加标失败—竞标天数为空, 执行通过
+2020-03-09 20:24:44,080 - [test_add.py-->line:72] - INFO: 用例:加标失败—借款人id不是当前登录用户, 执行通过
+2020-03-09 20:24:44,253 - [test_add.py-->line:72] - INFO: 用例:加标失败—借款金额为负数, 执行通过
+2020-03-09 20:24:44,431 - [test_add.py-->line:72] - INFO: 用例:加标失败—借款金额为小数, 执行通过
+2020-03-09 20:24:44,770 - [test_audit.py-->line:104] - INFO: 用例:审核通过, 执行通过
+2020-03-09 20:24:45,068 - [test_audit.py-->line:104] - INFO: 用例:审核不通过, 执行通过
+2020-03-09 20:24:45,297 - [test_audit.py-->line:104] - INFO: 用例:项目不待审核状态, 执行通过
+2020-03-09 20:24:45,501 - [test_audit.py-->line:104] - INFO: 用例:参数approved_or_not为空, 执行通过
+2020-03-09 20:24:45,729 - [test_audit.py-->line:104] - INFO: 用例:项目id为空, 执行通过
+2020-03-09 20:24:45,969 - [test_audit.py-->line:104] - INFO: 用例:项目id不存在, 执行通过
+2020-03-09 20:24:46,255 - [test_info.py-->line:76] - INFO: 用例:正常获取用户信息, 执行通过
+2020-03-09 20:24:46,436 - [test_info.py-->line:76] - INFO: 用例:不存在的用户id, 执行通过
+2020-03-09 20:24:46,631 - [test_invest.py-->line:75] - INFO: 用例:管理员正常登录, 执行通过
+2020-03-09 20:24:46,800 - [test_invest.py-->line:75] - INFO: 用例:管理员加标, 执行通过
+2020-03-09 20:24:46,968 - [test_invest.py-->line:75] - INFO: 用例:管理员审核, 执行通过
+2020-03-09 20:24:47,156 - [test_invest.py-->line:75] - INFO: 用例:投资人正常登录, 执行通过
+2020-03-09 20:24:47,345 - [test_invest.py-->line:75] - INFO: 用例:投资人正常投资, 执行通过
+2020-03-09 20:24:47,534 - [test_invest.py-->line:75] - INFO: 用例:投资人id为空, 执行通过
+2020-03-09 20:24:47,698 - [test_invest.py-->line:75] - INFO: 用例:标id为空, 执行通过
+2020-03-09 20:24:47,865 - [test_invest.py-->line:75] - INFO: 用例:投资金额为空, 执行通过
+2020-03-09 20:24:48,041 - [test_invest.py-->line:75] - INFO: 用例:投资金额大于项目可投金额, 执行通过
+2020-03-09 20:24:48,272 - [test_invest.py-->line:75] - INFO: 用例:投资金额等于项目可投金额, 执行通过
+2020-03-09 20:24:48,508 - [test_invest_two.py-->line:125] - INFO: 用例：管理员正常登录，执行通过
+2020-03-09 20:24:48,679 - [test_invest_two.py-->line:125] - INFO: 用例：管理员加标，执行通过
+2020-03-09 20:24:48,852 - [test_invest_two.py-->line:125] - INFO: 用例：管理员审核，执行通过
+2020-03-09 20:24:49,066 - [test_invest_two.py-->line:125] - INFO: 用例：投资人正常登录，执行通过
+2020-03-09 20:24:49,747 - [test_invest_two.py-->line:125] - INFO: 用例：投资人正常投资，执行通过
+2020-03-09 20:24:49,911 - [test_invest_two.py-->line:125] - INFO: 用例：投资人id为空，执行通过
+2020-03-09 20:24:50,101 - [test_invest_two.py-->line:125] - INFO: 用例：标id为空，执行通过
+2020-03-09 20:24:50,268 - [test_invest_two.py-->line:125] - INFO: 用例：投资金额为空，执行通过
+2020-03-09 20:24:50,461 - [test_invest_two.py-->line:125] - INFO: 用例：投资金额大于项目可投金额，执行通过
+2020-03-09 20:24:51,185 - [test_invest_two.py-->line:125] - INFO: 用例：投资金额等于项目可投金额，执行通过
+2020-03-09 20:24:51,406 - [test_login.py-->line:55] - INFO: 用例:登录成功, 执行通过
+2020-03-09 20:24:51,594 - [test_login.py-->line:50] - ERROR: 用例:手机号为空, 执行未通过
+2020-03-09 20:24:51,594 - [test_login.py-->line:51] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "F:\build_project\testcases\test_login.py", line 44, in test_login
+    self.assertEqual(expected["code"], res["code"])
+  File "D:\Python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-03-09 20:24:51,776 - [test_login.py-->line:50] - ERROR: 用例:密码为空, 执行未通过
+2020-03-09 20:24:51,776 - [test_login.py-->line:51] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "F:\build_project\testcases\test_login.py", line 44, in test_login
+    self.assertEqual(expected["code"], res["code"])
+  File "D:\Python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-03-09 20:24:52,028 - [test_login.py-->line:55] - INFO: 用例:手机号未注册, 执行通过
+2020-03-09 20:24:52,220 - [test_login.py-->line:55] - INFO: 用例:密码错误, 执行通过
+2020-03-09 20:24:52,413 - [test_login.py-->line:55] - INFO: 用例:手机号格式错误, 执行通过
+2020-03-09 20:24:52,888 - [test_recharge.py-->line:100] - INFO: 用例:充值成功-整数, 执行通过
+2020-03-09 20:24:53,221 - [test_recharge.py-->line:100] - INFO: 用例:充值成功-1位小数, 执行通过
+2020-03-09 20:24:53,550 - [test_recharge.py-->line:100] - INFO: 用例:充值成功-2位小数, 执行通过
+2020-03-09 20:24:53,919 - [test_recharge.py-->line:100] - INFO: 用例:充值成功-50万, 执行通过
+2020-03-09 20:24:54,085 - [test_recharge.py-->line:100] - INFO: 用例:会员id为空, 执行通过
+2020-03-09 20:24:54,273 - [test_recharge.py-->line:100] - INFO: 用例:id不是当前登录的用户, 执行通过
+2020-03-09 20:24:54,446 - [test_recharge.py-->line:95] - ERROR: 用例:会员id为字符串, 执行未通过
+2020-03-09 20:24:54,447 - [test_recharge.py-->line:96] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "F:\build_project\testcases\test_recharge.py", line 81, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "D:\Python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-09 20:24:54,629 - [test_recharge.py-->line:100] - INFO: 用例:会员id为小数, 执行通过
+2020-03-09 20:24:54,805 - [test_recharge.py-->line:95] - ERROR: 用例:充值金额为0, 执行未通过
+2020-03-09 20:24:54,805 - [test_recharge.py-->line:96] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "F:\build_project\testcases\test_recharge.py", line 81, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "D:\Python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-09 20:24:55,014 - [test_recharge.py-->line:95] - ERROR: 用例:充值金额为负数, 执行未通过
+2020-03-09 20:24:55,014 - [test_recharge.py-->line:96] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "F:\build_project\testcases\test_recharge.py", line 82, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "D:\Python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-03-09 20:24:55,200 - [test_recharge.py-->line:95] - ERROR: 用例:充值金额为空, 执行未通过
+2020-03-09 20:24:55,200 - [test_recharge.py-->line:96] - ERROR: 1 != 2
+Traceback (most recent call last):
+  File "F:\build_project\testcases\test_recharge.py", line 81, in test_recharge
+    self.assertEqual(expected["code"], res["code"])
+  File "D:\Python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 2
+2020-03-09 20:24:55,434 - [test_recharge.py-->line:95] - ERROR: 用例:充值金额-3位小数, 执行未通过
+2020-03-09 20:24:55,435 - [test_recharge.py-->line:96] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "F:\build_project\testcases\test_recharge.py", line 82, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "D:\Python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-03-09 20:24:55,618 - [test_recharge.py-->line:95] - ERROR: 用例:充值金额-大于50万, 执行未通过
+2020-03-09 20:24:55,618 - [test_recharge.py-->line:96] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+Traceback (most recent call last):
+  File "F:\build_project\testcases\test_recharge.py", line 82, in test_recharge
+    self.assertEqual(expected["msg"], res["msg"])
+  File "D:\Python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于500000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于500000
+? ^
+
+2020-03-09 20:24:55,815 - [test_recharge.py-->line:100] - INFO: 用例:充值金额-非数字, 执行通过
+2020-03-09 20:24:56,131 - [test_register.py-->line:70] - INFO: 用例:注册成功-带注册名, 执行通过
+2020-03-09 20:24:56,402 - [test_register.py-->line:70] - INFO: 用例:成功-不带用户名, 执行通过
+2020-03-09 20:24:56,575 - [test_register.py-->line:70] - INFO: 用例:不输入手机号, 执行通过
+2020-03-09 20:24:56,759 - [test_register.py-->line:70] - INFO: 用例:手机号长度10位, 执行通过
+2020-03-09 20:24:56,919 - [test_register.py-->line:70] - INFO: 用例:手机号长度12位, 执行通过
+2020-03-09 20:24:57,092 - [test_register.py-->line:70] - INFO: 用例:手机号含有非法字符, 执行通过
+2020-03-09 20:24:57,282 - [test_register.py-->line:70] - INFO: 用例:已注册过的手机号, 执行通过
+2020-03-09 20:24:57,444 - [test_register.py-->line:70] - INFO: 用例:密码7位, 执行通过
+2020-03-09 20:24:57,642 - [test_register.py-->line:70] - INFO: 用例:密码17位, 执行通过
+2020-03-09 20:24:57,816 - [test_register.py-->line:70] - INFO: 用例:不输入密码, 执行通过
+2020-03-09 20:24:57,986 - [test_register.py-->line:70] - INFO: 用例:注册名11位, 执行通过
+2020-03-09 20:24:58,179 - [test_register.py-->line:70] - INFO: 用例:类型输入非0，1内容, 执行通过
+2020-03-09 20:24:58,471 - [test_register.py-->line:70] - INFO: 用例:不输入类型, 执行通过
+2020-03-09 20:24:58,716 - [test_withdraw.py-->line:86] - INFO: 用例:登录成功, 执行通过
+2020-03-09 20:24:59,062 - [test_withdraw.py-->line:86] - INFO: 用例:提现成功-整数, 执行通过
+2020-03-09 20:24:59,403 - [test_withdraw.py-->line:86] - INFO: 用例:提现成功-1位小数, 执行通过
+2020-03-09 20:24:59,761 - [test_withdraw.py-->line:86] - INFO: 用例:提现成功-2位小数, 执行通过
+2020-03-09 20:25:00,088 - [test_withdraw.py-->line:86] - INFO: 用例:提现成功-50万, 执行通过
+2020-03-09 20:25:00,251 - [test_withdraw.py-->line:86] - INFO: 用例:会员id为空, 执行通过
+2020-03-09 20:25:00,478 - [test_withdraw.py-->line:86] - INFO: 用例:会员id不存在, 执行通过
+2020-03-09 20:25:00,660 - [test_withdraw.py-->line:81] - ERROR: 用例:会员id为字符串, 执行未通过
+2020-03-09 20:25:00,660 - [test_withdraw.py-->line:82] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "F:\build_project\testcases\test_withdraw.py", line 68, in test_withdraw
+    self.assertEqual(expected["code"], res["code"])
+  File "D:\Python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-09 20:25:00,857 - [test_withdraw.py-->line:86] - INFO: 用例:会员id为小数, 执行通过
+2020-03-09 20:25:01,030 - [test_withdraw.py-->line:81] - ERROR: 用例:提现金额为0, 执行未通过
+2020-03-09 20:25:01,030 - [test_withdraw.py-->line:82] - ERROR: 2 != 0
+Traceback (most recent call last):
+  File "F:\build_project\testcases\test_withdraw.py", line 68, in test_withdraw
+    self.assertEqual(expected["code"], res["code"])
+  File "D:\Python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2020-03-09 20:25:01,217 - [test_withdraw.py-->line:81] - ERROR: 用例:提现金额为负数, 执行未通过
+2020-03-09 20:25:01,217 - [test_withdraw.py-->line:82] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^                    +
+Traceback (most recent call last):
+  File "F:\build_project\testcases\test_withdraw.py", line 69, in test_withdraw
+    self.assertEqual(expected["msg"], res["msg"])
+  File "D:\Python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^                    +
+
+2020-03-09 20:25:01,397 - [test_withdraw.py-->line:81] - ERROR: 用例:提现金额为空, 执行未通过
+2020-03-09 20:25:01,397 - [test_withdraw.py-->line:82] - ERROR: '金额为空' != '余额为空'
+- 金额为空
+? ^
++ 余额为空
+? ^
+Traceback (most recent call last):
+  File "F:\build_project\testcases\test_withdraw.py", line 69, in test_withdraw
+    self.assertEqual(expected["msg"], res["msg"])
+  File "D:\Python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额为空' != '余额为空'
+- 金额为空
+? ^
++ 余额为空
+? ^
+
+2020-03-09 20:25:01,564 - [test_withdraw.py-->line:81] - ERROR: 用例:提现金额-3位小数, 执行未通过
+2020-03-09 20:25:01,564 - [test_withdraw.py-->line:82] - ERROR: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+Traceback (most recent call last):
+  File "F:\build_project\testcases\test_withdraw.py", line 69, in test_withdraw
+    self.assertEqual(expected["msg"], res["msg"])
+  File "D:\Python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额小数超过两位' != '余额小数超过两位'
+- 金额小数超过两位
+? ^
++ 余额小数超过两位
+? ^
+
+2020-03-09 20:25:01,757 - [test_withdraw.py-->line:81] - ERROR: 用例:提现金额-大于50万, 执行未通过
+2020-03-09 20:25:01,757 - [test_withdraw.py-->line:82] - ERROR: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^                    +
+Traceback (most recent call last):
+  File "F:\build_project\testcases\test_withdraw.py", line 69, in test_withdraw
+    self.assertEqual(expected["msg"], res["msg"])
+  File "D:\Python\lib\unittest\case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "D:\Python\lib\unittest\case.py", line 1203, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "D:\Python\lib\unittest\case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '金额必须大于0并且小于或者等于500000' != '余额必须大于0并且小于或者等于5000000'
+- 金额必须大于0并且小于或者等于500000
+? ^
++ 余额必须大于0并且小于或者等于5000000
+? ^                    +
+
+2020-03-09 20:25:01,936 - [test_withdraw.py-->line:86] - INFO: 用例:提现金额-非数字, 执行通过
