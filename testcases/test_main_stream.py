@@ -1,8 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time     : 2020/3/5 14:02
-# @Author   : Dang_Jiafei
-# @Email    : 18840341320@163.com
-
 # 冒烟测试用例
 import os
 import random
