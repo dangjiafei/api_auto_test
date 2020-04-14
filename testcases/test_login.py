@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time     : 2020/2/22 14:02
-# @Author   : Dang_Jiafei
-# @Email    : 18840341320@163.com
 import os
 import unittest
 from library.ddt import ddt, data
