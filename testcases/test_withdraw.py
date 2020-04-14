@@ -1,7 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Time     : 2020/2/26 11:09
-# @Author   : Dang_Jiafei
-# @Email    : 18840341320@163.com
 import os
 import jsonpath
 import unittest
