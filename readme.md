@@ -9,8 +9,4 @@
 - 项目的启动文件：run_test.py
 
 
-需要安装的第三方模块：jsonpath, openpyxl, pymysql, requests, rsa, BeautifulReport
-
-例如：pip install rsa
-
-
+安装依赖：pip install -r requirements.txt
