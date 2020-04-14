@@ -6,6 +6,7 @@ from common.handle_path import REPORT_DIR, CASE_DIR
 from common.handle_email import SendEmail
 from testcases import test_main_stream
 from BeautifulReport import BeautifulReport
+from common.handle_file_count import get_file_list
 
 # 第一步：创建套件
 suite = unittest.TestSuite()
