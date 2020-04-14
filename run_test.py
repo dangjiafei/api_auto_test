@@ -32,5 +32,8 @@ date = datetime.datetime.now().strftime("%m_%d_%H_%M_")
 br = BeautifulReport(suite)
 br.report("接口自动化测试报告", filename=date + "report.html", report_dir=REPORT_DIR)
 
+# Log和Report文件的数量控制
+get_file_list(LOG_DIR, REPORT_DIR)
+
 # 用例执行后, 发送邮件
 # SendEmail.send_email(os.path.join(REPORT_DIR, "report.html"))
