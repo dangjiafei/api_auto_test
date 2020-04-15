@@ -27,5 +27,5 @@ def get_file_list(log_file_path, report_file_path):
                 # 获取路径下最早的一个文件并删除
                 os.remove(os.path.join(LOG_DIR, log_dir_list[0]))
                 os.remove(os.path.join(REPORT_DIR, report_dir_list[0]))
-    except Exception as e:
+    except FileNotFoundError as e:
         print("文件路径不存在, 请检查路径是否正确")
